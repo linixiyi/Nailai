@@ -1,0 +1,6 @@
+# NailAI ai-service 测试依赖
+# 安装：pip install -r requirements-test.txt
+
+pytest>=8.0
+pytest-asyncio>=0.24
+httpx>=0.27

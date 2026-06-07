@@ -1,0 +1,65 @@
+[
+  {
+    "id": "custom-style-495206d78839",
+    "name": "奶油珍珠婚礼款",
+    "color": "裸色系 / 白色系",
+    "finish": "法式",
+    "occasion": [
+      "婚礼",
+      "新娘"
+    ],
+    "tags": [
+      "商家上新",
+      "实拍",
+      "AI上架",
+      "裸色系",
+      "白色系",
+      "法式",
+      "珍珠",
+      "流苏",
+      "梯型",
+      "温柔",
+      "仙气",
+      "婚礼",
+      "新娘",
+      "长款"
+    ],
+    "palette": [],
+    "prompt": "奶油珍珠婚礼款 manicure. Merchant upload style. Taxonomy: 裸色系, 白色系, 法式, 珍珠, 流苏, 梯型, 温柔, 仙气, 婚礼, 新娘, 长款. Required nail shape: 梯型. Required nail length: 长款.",
+    "difficulty": "medium",
+    "price_level": "¥¥",
+    "image_url": "/generated/custom-styles/custom-style-495206d78839-design.png",
+    "source_image_url": "/generated/custom-styles/custom-style-495206d78839-source.png",
+    "design_image_url": "/generated/custom-styles/custom-style-495206d78839-design.png",
+    "render_channel": "segmentation-isolated-design",
+    "nail_length": "long",
+    "taxonomy": {
+      "colors": [
+        "裸色系",
+        "白色系"
+      ],
+      "techniques": [
+        "法式",
+        "珍珠",
+        "流苏"
+      ],
+      "shapes": [
+        "梯型"
+      ],
+      "styles": [
+        "温柔",
+        "仙气"
+      ],
+      "occasions": [
+        "婚礼",
+        "新娘"
+      ],
+      "lengths": [
+        "长款"
+      ]
+    },
+    "stock_total": 99,
+    "stock_reserved": 0,
+    "source_batch": "merchant-upload"
+  }
+]

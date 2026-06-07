@@ -1,0 +1,12 @@
+{
+  "draft_id": "style-draft-40ab77cd4da4",
+  "name": "1",
+  "price": "158",
+  "source_file_path": "C:\\Users\\llinx\\MeiTuanHackathon\\ai-service\\generated\\style-upload-drafts\\style-draft-40ab77cd4da4-source.png",
+  "design_file_path": "C:\\Users\\llinx\\MeiTuanHackathon\\ai-service\\generated\\style-upload-drafts\\style-draft-40ab77cd4da4-design.png",
+  "source_image_url": "/generated/style-upload-drafts/style-draft-40ab77cd4da4-source.png",
+  "design_image_url": "/generated/style-upload-drafts/style-draft-40ab77cd4da4-design.png",
+  "render_status": "fallback_isolated_design",
+  "render_channel": "segmentation-isolated-design",
+  "render_error": "HTTPStatusError: Server error '504 Gateway Time-out' for url 'https://api.highwayapi.ai/v3/gpt-image-2-edit'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+}

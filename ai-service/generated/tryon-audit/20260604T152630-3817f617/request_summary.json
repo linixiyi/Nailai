@@ -1,0 +1,983 @@
+{
+  "id": "20260604T152630-3817f617",
+  "created_at": "2026-06-04T15:26:30.604780+00:00",
+  "status": "succeeded",
+  "channel": "qwen-image-edit-fast",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+  "model": "wan2.7-image-pro",
+  "assets": {
+    "hand_image_url": "/generated/tryon-audit/20260604T152630-3817f617/hand_input.jpg",
+    "style_image_url": "/generated/tryon-audit/20260604T152630-3817f617/style_input.jpg",
+    "mask_image_url": null,
+    "prompt_url": "/generated/tryon-audit/20260604T152630-3817f617/prompt.txt"
+  },
+  "sent_to_model": {
+    "hand_image": true,
+    "style_image": true,
+    "mask_image": false,
+    "pixel_prompt": true
+  },
+  "pixel_control": {
+    "style_level": "MEDIUM",
+    "style_level_source": "qwen3-vl-style-analysis",
+    "image_size": {
+      "width": 896,
+      "height": 1200
+    },
+    "user_nails": [
+      {
+        "x1": 120.1,
+        "y1": 475.2,
+        "x2": 174.8,
+        "y2": 548.4,
+        "confidence": 0.98
+      },
+      {
+        "x1": 297.5,
+        "y1": 292.8,
+        "x2": 356.6,
+        "y2": 376.8,
+        "confidence": 0.99
+      },
+      {
+        "x1": 461.4,
+        "y1": 240.0,
+        "x2": 524.1,
+        "y2": 316.8,
+        "confidence": 0.99
+      },
+      {
+        "x1": 622.7,
+        "y1": 306.0,
+        "x2": 680.9,
+        "y2": 390.0,
+        "confidence": 0.98
+      },
+      {
+        "x1": 784.0,
+        "y1": 669.6,
+        "x2": 853.0,
+        "y2": 736.8,
+        "confidence": 0.97
+      }
+    ],
+    "user_nails_source": "qwen3-vl-grounding",
+    "style_nails": [
+      {
+        "x1": 38.0,
+        "y1": 800.7,
+        "x2": 183.5,
+        "y2": 1084.5,
+        "confidence": 1.0
+      },
+      {
+        "x1": 35.8,
+        "y1": 318.6,
+        "x2": 232.4,
+        "y2": 644.4,
+        "confidence": 1.0
+      },
+      {
+        "x1": 254.1,
+        "y1": 770.3,
+        "x2": 423.5,
+        "y2": 1084.5,
+        "confidence": 1.0
+      },
+      {
+        "x1": 268.2,
+        "y1": 328.7,
+        "x2": 455.0,
+        "y2": 644.4,
+        "confidence": 1.0
+      },
+      {
+        "x1": 474.6,
+        "y1": 784.8,
+        "x2": 637.5,
+        "y2": 1087.4,
+        "confidence": 1.0
+      },
+      {
+        "x1": 497.4,
+        "y1": 338.8,
+        "x2": 661.4,
+        "y2": 644.3,
+        "confidence": 1.0
+      },
+      {
+        "x1": 677.7,
+        "y1": 777.6,
+        "x2": 856.9,
+        "y2": 1087.5,
+        "confidence": 1.0
+      },
+      {
+        "x1": 702.6,
+        "y1": 331.6,
+        "x2": 870.9,
+        "y2": 644.4,
+        "confidence": 1.0
+      },
+      {
+        "x1": 896.0,
+        "y1": 774.7,
+        "x2": 1066.5,
+        "y2": 1087.5,
+        "confidence": 1.0
+      },
+      {
+        "x1": 916.6,
+        "y1": 363.4,
+        "x2": 1061.0,
+        "y2": 644.3,
+        "confidence": 1.0
+      }
+    ],
+    "style_nails_source": "qwen3-vl-style-analysis",
+    "pairing": [
+      {
+        "user_index": 0,
+        "style_index": 0,
+        "user_box": {
+          "x1": 120.1,
+          "y1": 475.2,
+          "x2": 174.8,
+          "y2": 548.4,
+          "confidence": 0.98,
+          "aspect": 1.3382
+        },
+        "style_box": {
+          "x1": 38.0,
+          "y1": 800.7,
+          "x2": 183.5,
+          "y2": 1084.5,
+          "confidence": 1.0,
+          "aspect": 1.9505
+        },
+        "target_aspect": 1.75,
+        "extension_scale": 1.22,
+        "rule": "extend-free-edge-only"
+      },
+      {
+        "user_index": 1,
+        "style_index": 2,
+        "user_box": {
+          "x1": 297.5,
+          "y1": 292.8,
+          "x2": 356.6,
+          "y2": 376.8,
+          "confidence": 0.99,
+          "aspect": 1.4213
+        },
+        "style_box": {
+          "x1": 254.1,
+          "y1": 770.3,
+          "x2": 423.5,
+          "y2": 1084.5,
+          "confidence": 1.0,
+          "aspect": 1.8548
+        },
+        "target_aspect": 1.75,
+        "extension_scale": 1.22,
+        "rule": "extend-free-edge-only"
+      },
+      {
+        "user_index": 2,
+        "style_index": 4,
+        "user_box": {
+          "x1": 461.4,
+          "y1": 240.0,
+          "x2": 524.1,
+          "y2": 316.8,
+          "confidence": 0.99,
+          "aspect": 1.2249
+        },
+        "style_box": {
+          "x1": 474.6,
+          "y1": 784.8,
+          "x2": 637.5,
+          "y2": 1087.4,
+          "confidence": 1.0,
+          "aspect": 1.8576
+        },
+        "target_aspect": 1.75,
+        "extension_scale": 1.22,
+        "rule": "extend-free-edge-only"
+      },
+      {
+        "user_index": 3,
+        "style_index": 7,
+        "user_box": {
+          "x1": 622.7,
+          "y1": 306.0,
+          "x2": 680.9,
+          "y2": 390.0,
+          "confidence": 0.98,
+          "aspect": 1.4433
+        },
+        "style_box": {
+          "x1": 702.6,
+          "y1": 331.6,
+          "x2": 870.9,
+          "y2": 644.4,
+          "confidence": 1.0,
+          "aspect": 1.8586
+        },
+        "target_aspect": 1.75,
+        "extension_scale": 1.2125,
+        "rule": "extend-free-edge-only"
+      },
+      {
+        "user_index": 4,
+        "style_index": 9,
+        "user_box": {
+          "x1": 784.0,
+          "y1": 669.6,
+          "x2": 853.0,
+          "y2": 736.8,
+          "confidence": 0.97,
+          "aspect": 0.9739
+        },
+        "style_box": {
+          "x1": 916.6,
+          "y1": 363.4,
+          "x2": 1061.0,
+          "y2": 644.3,
+          "confidence": 1.0,
+          "aspect": 1.9453
+        },
+        "target_aspect": 1.75,
+        "extension_scale": 1.22,
+        "rule": "extend-free-edge-only"
+      }
+    ],
+    "length_control": {
+      "detected_style_level": "MEDIUM",
+      "transfer_mode": "free-edge-extension-only",
+      "preserve_root_width": true,
+      "preserve_finger_anatomy": true,
+      "pairs": [
+        {
+          "user_index": 0,
+          "style_index": 0,
+          "user_box": {
+            "x1": 120.1,
+            "y1": 475.2,
+            "x2": 174.8,
+            "y2": 548.4,
+            "confidence": 0.98,
+            "aspect": 1.3382
+          },
+          "style_box": {
+            "x1": 38.0,
+            "y1": 800.7,
+            "x2": 183.5,
+            "y2": 1084.5,
+            "confidence": 1.0,
+            "aspect": 1.9505
+          },
+          "target_aspect": 1.75,
+          "extension_scale": 1.22,
+          "rule": "extend-free-edge-only"
+        },
+        {
+          "user_index": 1,
+          "style_index": 2,
+          "user_box": {
+            "x1": 297.5,
+            "y1": 292.8,
+            "x2": 356.6,
+            "y2": 376.8,
+            "confidence": 0.99,
+            "aspect": 1.4213
+          },
+          "style_box": {
+            "x1": 254.1,
+            "y1": 770.3,
+            "x2": 423.5,
+            "y2": 1084.5,
+            "confidence": 1.0,
+            "aspect": 1.8548
+          },
+          "target_aspect": 1.75,
+          "extension_scale": 1.22,
+          "rule": "extend-free-edge-only"
+        },
+        {
+          "user_index": 2,
+          "style_index": 4,
+          "user_box": {
+            "x1": 461.4,
+            "y1": 240.0,
+            "x2": 524.1,
+            "y2": 316.8,
+            "confidence": 0.99,
+            "aspect": 1.2249
+          },
+          "style_box": {
+            "x1": 474.6,
+            "y1": 784.8,
+            "x2": 637.5,
+            "y2": 1087.4,
+            "confidence": 1.0,
+            "aspect": 1.8576
+          },
+          "target_aspect": 1.75,
+          "extension_scale": 1.22,
+          "rule": "extend-free-edge-only"
+        },
+        {
+          "user_index": 3,
+          "style_index": 7,
+          "user_box": {
+            "x1": 622.7,
+            "y1": 306.0,
+            "x2": 680.9,
+            "y2": 390.0,
+            "confidence": 0.98,
+            "aspect": 1.4433
+          },
+          "style_box": {
+            "x1": 702.6,
+            "y1": 331.6,
+            "x2": 870.9,
+            "y2": 644.4,
+            "confidence": 1.0,
+            "aspect": 1.8586
+          },
+          "target_aspect": 1.75,
+          "extension_scale": 1.2125,
+          "rule": "extend-free-edge-only"
+        },
+        {
+          "user_index": 4,
+          "style_index": 9,
+          "user_box": {
+            "x1": 784.0,
+            "y1": 669.6,
+            "x2": 853.0,
+            "y2": 736.8,
+            "confidence": 0.97,
+            "aspect": 0.9739
+          },
+          "style_box": {
+            "x1": 916.6,
+            "y1": 363.4,
+            "x2": 1061.0,
+            "y2": 644.3,
+            "confidence": 1.0,
+            "aspect": 1.9453
+          },
+          "target_aspect": 1.75,
+          "extension_scale": 1.22,
+          "rule": "extend-free-edge-only"
+        }
+      ]
+    },
+    "style_analysis": {
+      "image_size": {
+        "width": 1086,
+        "height": 1448
+      },
+      "nails": [
+        {
+          "index": 5,
+          "finger": "nail_6",
+          "box": {
+            "x": 38.0,
+            "y": 800.7,
+            "w": 145.5,
+            "h": 283.8
+          },
+          "center": {
+            "x": 110.8,
+            "y": 942.6
+          },
+          "norm": {
+            "x": 0.035,
+            "y": 0.553,
+            "w": 0.134,
+            "h": 0.196,
+            "cx": 0.102,
+            "cy": 0.651
+          },
+          "aspect": 1.95,
+          "confidence": 1.0
+        },
+        {
+          "index": 0,
+          "finger": "nail_1",
+          "box": {
+            "x": 35.8,
+            "y": 318.6,
+            "w": 196.6,
+            "h": 325.8
+          },
+          "center": {
+            "x": 134.1,
+            "y": 481.5
+          },
+          "norm": {
+            "x": 0.033,
+            "y": 0.22,
+            "w": 0.181,
+            "h": 0.225,
+            "cx": 0.1235,
+            "cy": 0.3325
+          },
+          "aspect": 1.657,
+          "confidence": 1.0
+        },
+        {
+          "index": 6,
+          "finger": "nail_7",
+          "box": {
+            "x": 254.1,
+            "y": 770.3,
+            "w": 169.4,
+            "h": 314.2
+          },
+          "center": {
+            "x": 338.8,
+            "y": 927.4
+          },
+          "norm": {
+            "x": 0.234,
+            "y": 0.532,
+            "w": 0.156,
+            "h": 0.217,
+            "cx": 0.312,
+            "cy": 0.6405
+          },
+          "aspect": 1.855,
+          "confidence": 1.0
+        },
+        {
+          "index": 1,
+          "finger": "nail_2",
+          "box": {
+            "x": 268.2,
+            "y": 328.7,
+            "w": 186.8,
+            "h": 315.7
+          },
+          "center": {
+            "x": 361.6,
+            "y": 486.5
+          },
+          "norm": {
+            "x": 0.247,
+            "y": 0.227,
+            "w": 0.172,
+            "h": 0.218,
+            "cx": 0.333,
+            "cy": 0.336
+          },
+          "aspect": 1.69,
+          "confidence": 1.0
+        },
+        {
+          "index": 7,
+          "finger": "nail_8",
+          "box": {
+            "x": 474.6,
+            "y": 784.8,
+            "w": 162.9,
+            "h": 302.6
+          },
+          "center": {
+            "x": 556.0,
+            "y": 936.1
+          },
+          "norm": {
+            "x": 0.437,
+            "y": 0.542,
+            "w": 0.15,
+            "h": 0.209,
+            "cx": 0.512,
+            "cy": 0.6465
+          },
+          "aspect": 1.858,
+          "confidence": 1.0
+        },
+        {
+          "index": 2,
+          "finger": "nail_3",
+          "box": {
+            "x": 497.4,
+            "y": 338.8,
+            "w": 164.0,
+            "h": 305.5
+          },
+          "center": {
+            "x": 579.4,
+            "y": 491.6
+          },
+          "norm": {
+            "x": 0.458,
+            "y": 0.234,
+            "w": 0.151,
+            "h": 0.211,
+            "cx": 0.5335,
+            "cy": 0.3395
+          },
+          "aspect": 1.863,
+          "confidence": 1.0
+        },
+        {
+          "index": 8,
+          "finger": "nail_9",
+          "box": {
+            "x": 677.7,
+            "y": 777.6,
+            "w": 179.2,
+            "h": 309.9
+          },
+          "center": {
+            "x": 767.3,
+            "y": 932.5
+          },
+          "norm": {
+            "x": 0.624,
+            "y": 0.537,
+            "w": 0.165,
+            "h": 0.214,
+            "cx": 0.7065,
+            "cy": 0.644
+          },
+          "aspect": 1.729,
+          "confidence": 1.0
+        },
+        {
+          "index": 3,
+          "finger": "nail_4",
+          "box": {
+            "x": 702.6,
+            "y": 331.6,
+            "w": 168.3,
+            "h": 312.8
+          },
+          "center": {
+            "x": 786.8,
+            "y": 488.0
+          },
+          "norm": {
+            "x": 0.647,
+            "y": 0.229,
+            "w": 0.155,
+            "h": 0.216,
+            "cx": 0.7245,
+            "cy": 0.337
+          },
+          "aspect": 1.858,
+          "confidence": 1.0
+        },
+        {
+          "index": 9,
+          "finger": "nail_10",
+          "box": {
+            "x": 896.0,
+            "y": 774.7,
+            "w": 170.5,
+            "h": 312.8
+          },
+          "center": {
+            "x": 981.2,
+            "y": 931.1
+          },
+          "norm": {
+            "x": 0.825,
+            "y": 0.535,
+            "w": 0.157,
+            "h": 0.216,
+            "cx": 0.9035,
+            "cy": 0.643
+          },
+          "aspect": 1.834,
+          "confidence": 1.0
+        },
+        {
+          "index": 4,
+          "finger": "nail_5",
+          "box": {
+            "x": 916.6,
+            "y": 363.4,
+            "w": 144.4,
+            "h": 280.9
+          },
+          "center": {
+            "x": 988.8,
+            "y": 503.9
+          },
+          "norm": {
+            "x": 0.844,
+            "y": 0.251,
+            "w": 0.133,
+            "h": 0.194,
+            "cx": 0.9105,
+            "cy": 0.348
+          },
+          "aspect": 1.945,
+          "confidence": 1.0
+        }
+      ],
+      "nail_count": 10,
+      "style_level": "MEDIUM",
+      "analysis_source": "qwen3-vl-style-analysis",
+      "nail_shape": "oval",
+      "visual_description": "整体为椭圆形（oval）甲型，长度中等；款式包含多种元素：浅蓝底色配黄绿圆点、酒红底色配立体小白花、裸粉底色配多彩圆点、米色格纹、闪粉渐变等，风格清新可爱，色彩柔和",
+      "vision_raw_json": {
+        "coordinate_space": "normalized_1000",
+        "nails": [
+          {
+            "label": "nail_1",
+            "box_2d": [
+              33,
+              220,
+              214,
+              445
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_2",
+            "box_2d": [
+              247,
+              227,
+              419,
+              445
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_3",
+            "box_2d": [
+              458,
+              234,
+              609,
+              445
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_4",
+            "box_2d": [
+              647,
+              229,
+              802,
+              445
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_5",
+            "box_2d": [
+              844,
+              251,
+              977,
+              445
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_6",
+            "box_2d": [
+              35,
+              553,
+              169,
+              749
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_7",
+            "box_2d": [
+              234,
+              532,
+              390,
+              749
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_8",
+            "box_2d": [
+              437,
+              542,
+              587,
+              751
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_9",
+            "box_2d": [
+              624,
+              537,
+              789,
+              751
+            ],
+            "confidence": 1.0
+          },
+          {
+            "label": "nail_10",
+            "box_2d": [
+              825,
+              535,
+              982,
+              751
+            ],
+            "confidence": 1.0
+          }
+        ],
+        "style_level": "MEDIUM",
+        "nail_shape": "oval",
+        "visual_description": "整体为椭圆形（oval）甲型，长度中等；款式包含多种元素：浅蓝底色配黄绿圆点、酒红底色配立体小白花、裸粉底色配多彩圆点、米色格纹、闪粉渐变等，风格清新可爱，色彩柔和"
+      }
+    },
+    "timings_ms": {
+      "style_length_analysis": 393.3,
+      "hand_nail_detection": 275.0,
+      "style_nail_detection": 285.5,
+      "qwen_vl_grounding": 4393.4,
+      "qwen_vl_style_analysis": 7792.1,
+      "hand_image_normalize": 79.1,
+      "style_orientation_normalize": 832.8,
+      "style_image_normalize": 37.6,
+      "style_reference_preprocess": 949.5
+    }
+  },
+  "hand_analysis": {
+    "image_size": {
+      "width": 896,
+      "height": 1200
+    },
+    "nails": [
+      {
+        "index": 0,
+        "finger": "nail_1",
+        "box": {
+          "x": 120.1,
+          "y": 475.2,
+          "w": 54.7,
+          "h": 73.2
+        },
+        "center": {
+          "x": 147.4,
+          "y": 511.8
+        },
+        "norm": {
+          "x": 0.134,
+          "y": 0.396,
+          "w": 0.061,
+          "h": 0.061,
+          "cx": 0.1645,
+          "cy": 0.4265
+        },
+        "aspect": 1.339,
+        "confidence": 0.98
+      },
+      {
+        "index": 1,
+        "finger": "nail_2",
+        "box": {
+          "x": 297.5,
+          "y": 292.8,
+          "w": 59.1,
+          "h": 84.0
+        },
+        "center": {
+          "x": 327.0,
+          "y": 334.8
+        },
+        "norm": {
+          "x": 0.332,
+          "y": 0.244,
+          "w": 0.066,
+          "h": 0.07,
+          "cx": 0.365,
+          "cy": 0.279
+        },
+        "aspect": 1.42,
+        "confidence": 0.99
+      },
+      {
+        "index": 2,
+        "finger": "nail_3",
+        "box": {
+          "x": 461.4,
+          "y": 240.0,
+          "w": 62.7,
+          "h": 76.8
+        },
+        "center": {
+          "x": 492.8,
+          "y": 278.4
+        },
+        "norm": {
+          "x": 0.515,
+          "y": 0.2,
+          "w": 0.07,
+          "h": 0.064,
+          "cx": 0.55,
+          "cy": 0.232
+        },
+        "aspect": 1.224,
+        "confidence": 0.99
+      },
+      {
+        "index": 3,
+        "finger": "nail_4",
+        "box": {
+          "x": 622.7,
+          "y": 306.0,
+          "w": 58.2,
+          "h": 84.0
+        },
+        "center": {
+          "x": 651.8,
+          "y": 348.0
+        },
+        "norm": {
+          "x": 0.695,
+          "y": 0.255,
+          "w": 0.065,
+          "h": 0.07,
+          "cx": 0.7275,
+          "cy": 0.29
+        },
+        "aspect": 1.442,
+        "confidence": 0.98
+      },
+      {
+        "index": 4,
+        "finger": "nail_5",
+        "box": {
+          "x": 784.0,
+          "y": 669.6,
+          "w": 69.0,
+          "h": 67.2
+        },
+        "center": {
+          "x": 818.5,
+          "y": 703.2
+        },
+        "norm": {
+          "x": 0.875,
+          "y": 0.558,
+          "w": 0.077,
+          "h": 0.056,
+          "cx": 0.9135,
+          "cy": 0.586
+        },
+        "aspect": 0.974,
+        "confidence": 0.97
+      }
+    ],
+    "nail_count": 5,
+    "segmentation_available": true,
+    "analysis_source": "qwen-vl-grounding",
+    "vision_description": "{\n  \"coordinate_space\": \"normalized_1000\",\n  \"nails\": [\n    {\"label\":\"nail_1\",\"box_2d\":[134, 396, 195, 457],\"confidence\":0.98},\n    {\"label\":\"nail_2\",\"box_2d\":[332, 244, 398, 314],\"confidence\":0.99},\n    {\"label\":\"nail_3\",\"box_2d\":\":515, 200, 585, 264],\"confidence\":0.99},\n    {\"label\":\"nail_4\",\"box_2d\":\":695, 255, 760, 325],\"confidence\":0.98},\n    {\"label\":\"nail_5\",\"box_2d\":\":875, 558, 952, 614],\"confidence\":0.97}\n  ],\n  \"hand_features\": {\"skin_tone\":\"light-medium\", \"finger_shape\":\"moderately long and slender\", \"current_nail_shape\":\"natural oval\"},\n  \"style_suggestions\": [\"soft nude polish\", \"long almond shape with subtle shimmer\"],\n  \"summary\": \"Hand exhibits natural oval nails with light-medium skin tone; fingers are moderately long and slender. Recommended style: soft nude polish with long almond shape to enhance length and create a clean, elegant look that complements the skin tone.\"\n}",
+    "segmentation_confidence": 0.8861,
+    "segmentation_message": "nail-segmentation-pass",
+    "vision_summary": "Hand exhibits natural oval nails with light-medium skin tone; fingers are moderately long and slender. Recommended style: soft nude polish with long almond shape to enhance length and create a clean, elegant look that complements the skin tone.",
+    "hand_features": {
+      "skin_tone": "light-medium",
+      "finger_shape": "moderately long and slender",
+      "current_nail_shape": "natural oval"
+    },
+    "style_suggestions": [
+      "soft nude polish",
+      "long almond shape with subtle shimmer"
+    ],
+    "vision_raw_json": {
+      "coordinate_space": "normalized_1000",
+      "nails": [
+        {
+          "label": "nail_1",
+          "box_2d": [
+            134,
+            396,
+            195,
+            457
+          ],
+          "confidence": 0.98
+        },
+        {
+          "label": "nail_2",
+          "box_2d": [
+            332,
+            244,
+            398,
+            314
+          ],
+          "confidence": 0.99
+        },
+        {
+          "label": "nail_3",
+          "box_2d": [
+            515,
+            200,
+            585,
+            264
+          ],
+          "confidence": 0.99
+        },
+        {
+          "label": "nail_4",
+          "box_2d": [
+            695,
+            255,
+            760,
+            325
+          ],
+          "confidence": 0.98
+        },
+        {
+          "label": "nail_5",
+          "box_2d": [
+            875,
+            558,
+            952,
+            614
+          ],
+          "confidence": 0.97
+        }
+      ],
+      "hand_features": {
+        "skin_tone": "light-medium",
+        "finger_shape": "moderately long and slender",
+        "current_nail_shape": "natural oval"
+      },
+      "style_suggestions": [
+        "soft nude polish",
+        "long almond shape with subtle shimmer"
+      ],
+      "summary": "Hand exhibits natural oval nails with light-medium skin tone; fingers are moderately long and slender. Recommended style: soft nude polish with long almond shape to enhance length and create a clean, elegant look that complements the skin tone."
+    },
+    "compact_json": "{\"size\": {\"width\": 896, \"height\": 1200}, \"nail_count\": 5, \"nails\": [{\"i\": 0, \"norm\": {\"x\": 0.134, \"y\": 0.396, \"w\": 0.061, \"h\": 0.061, \"cx\": 0.1645, \"cy\": 0.4265}, \"aspect\": 1.339}, {\"i\": 1, \"norm\": {\"x\": 0.332, \"y\": 0.244, \"w\": 0.066, \"h\": 0.07, \"cx\": 0.365, \"cy\": 0.279}, \"aspect\": 1.42}, {\"i\": 2, \"norm\": {\"x\": 0.515, \"y\": 0.2, \"w\": 0.07, \"h\": 0.064, \"cx\": 0.55, \"cy\": 0.232}, \"aspect\": 1.224}, {\"i\": 3, \"norm\": {\"x\": 0.695, \"y\": 0.255, \"w\": 0.065, \"h\": 0.07, \"cx\": 0.7275, \"cy\": 0.29}, \"aspect\": 1.442}, {\"i\": 4, \"norm\": {\"x\": 0.875, \"y\": 0.558, \"w\": 0.077, \"h\": 0.056, \"cx\": 0.9135, \"cy\": 0.586}, \"aspect\": 0.974}]}"
+  },
+  "timings_ms": {
+    "style_length_analysis": 393.3,
+    "hand_nail_detection": 275.0,
+    "style_nail_detection": 285.5,
+    "qwen_vl_grounding": 4393.4,
+    "qwen_vl_style_analysis": 7792.1,
+    "hand_image_normalize": 79.1,
+    "style_orientation_normalize": 832.8,
+    "style_image_normalize": 37.6,
+    "style_reference_preprocess": 949.5,
+    "image_generation_api": 12894.4,
+    "provider_total": 13914.3
+  },
+  "payload_summary": {
+    "image_count": 2,
+    "has_mask_field": false,
+    "mask_used_as_api_field": false,
+    "size": "2K"
+  },
+  "completed_at": "2026-06-04T15:26:43.503306+00:00",
+  "result_image_url": "https://dashscope-7c2c.oss-accelerate.aliyuncs.com/1d/45/20260604/71ede96f/1bc4df7f-80a8-4156-9d06-8a8e71133e8c_0.png?Expires=1780673200&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=JPGMIKzuju7XBC6M6%2BxH5OjdNOU%3D",
+  "error": null
+}

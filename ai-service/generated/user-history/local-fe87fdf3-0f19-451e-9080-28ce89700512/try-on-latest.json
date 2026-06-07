@@ -1,0 +1,79 @@
+{
+  "job_id": "bc39c044-cd35-47c7-a49d-e28a2891c26f",
+  "status": "succeeded",
+  "channel": "qwen-image-edit-fast",
+  "style": {
+    "id": "library-20260514-001",
+    "name": "酒红蝴蝶结法式",
+    "color": "红色系 / 粉色系",
+    "finish": "法式",
+    "occasion": [
+      "约会",
+      "节日",
+      "新年",
+      "圣诞"
+    ],
+    "tags": [
+      "红色系",
+      "法式",
+      "方圆型",
+      "复古",
+      "约会",
+      "中长款"
+    ],
+    "palette": [
+      "#7a1020",
+      "#f2ccd5",
+      "#ffffff"
+    ],
+    "prompt": "酒红蝴蝶结法式 manicure. six-dimensional taxonomy constrained nail style. taxonomy tags: 红色系, 粉色系, 法式, 法式变体, 钻饰, 宝石, 珍珠, 手绘, 花卉, 立体花, 方圆型, 复古, 老钱, 莫兰迪, 约会, 节日, 新年, 圣诞, 中长款. required nail shape: 方圆型. required nail length: 中长款",
+    "difficulty": "hard",
+    "price_level": "¥¥¥",
+    "image_url": "/style-images/library-20260514/library-20260514-001.png",
+    "nail_length": "medium",
+    "taxonomy": {
+      "colors": [
+        "红色系",
+        "粉色系"
+      ],
+      "techniques": [
+        "法式",
+        "法式变体",
+        "钻饰",
+        "宝石",
+        "珍珠",
+        "手绘",
+        "花卉",
+        "立体花"
+      ],
+      "shapes": [
+        "方圆型"
+      ],
+      "styles": [
+        "复古",
+        "老钱",
+        "莫兰迪"
+      ],
+      "occasions": [
+        "约会",
+        "节日",
+        "新年",
+        "圣诞"
+      ],
+      "lengths": [
+        "中长款"
+      ]
+    },
+    "stock_total": 15,
+    "stock_reserved": 0
+  },
+  "result_image_url": "/generated/tryon-results/44b047f464cf40939d4c10698a6a2b9a.png",
+  "mask_image_url": null,
+  "hand_confidence": 0.86,
+  "quality_score": 0.9,
+  "nail_count": 5,
+  "nail_confidence": 0.880337655544281,
+  "kind": "try-on",
+  "user_id": "local-fe87fdf3-0f19-451e-9080-28ce89700512",
+  "created_at": "2026-06-05T07:06:17.728577+00:00"
+}

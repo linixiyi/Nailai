@@ -1,0 +1,83 @@
+{
+  "job_id": "0a369f7f-4716-4b22-bdae-9c7a28b64985",
+  "status": "succeeded",
+  "channel": "qwen-image-edit-fast",
+  "style": {
+    "id": "library-20260514-005",
+    "name": "巴洛克爱心堆钻",
+    "color": "粉色系 / 彩色",
+    "finish": "钻饰",
+    "occasion": [
+      "派对",
+      "蹦迪",
+      "晚宴"
+    ],
+    "tags": [
+      "粉色系",
+      "钻饰",
+      "方圆型",
+      "奢华",
+      "派对",
+      "中长款"
+    ],
+    "palette": [
+      "#f5c4d6",
+      "#b87a8e",
+      "#ffffff"
+    ],
+    "prompt": "巴洛克爱心堆钻 manicure. six-dimensional taxonomy constrained nail style. taxonomy tags: 粉色系, 彩色, 多色, 钻饰, 宝石, 珍珠, 渐变, 腮红, 冰透, 方圆型, 奢华, 巴洛克, 千金, 日系, 清新, 可爱, 派对, 蹦迪, 晚宴, 中长款. required nail shape: 方圆型. required nail length: 中长款",
+    "difficulty": "hard",
+    "price_level": "¥¥¥",
+    "image_url": "/style-images/library-20260514/library-20260514-005.png",
+    "source_image_url": null,
+    "design_image_url": null,
+    "render_channel": null,
+    "nail_length": "medium",
+    "taxonomy": {
+      "colors": [
+        "粉色系",
+        "彩色",
+        "多色"
+      ],
+      "techniques": [
+        "钻饰",
+        "宝石",
+        "珍珠",
+        "渐变",
+        "腮红",
+        "冰透"
+      ],
+      "shapes": [
+        "方圆型"
+      ],
+      "styles": [
+        "奢华",
+        "巴洛克",
+        "千金",
+        "日系",
+        "清新",
+        "可爱"
+      ],
+      "occasions": [
+        "派对",
+        "蹦迪",
+        "晚宴"
+      ],
+      "lengths": [
+        "中长款"
+      ]
+    },
+    "stock_total": 15,
+    "stock_reserved": 0,
+    "source_batch": null
+  },
+  "result_image_url": "/generated/tryon-results/37027686a57e4f3d90fbe706104c6bc3.png",
+  "mask_image_url": null,
+  "hand_confidence": 0.86,
+  "quality_score": 0.9,
+  "nail_count": 5,
+  "nail_confidence": 0.8860666155815125,
+  "kind": "try-on",
+  "user_id": "local-mpzs9hgb-04c5pt3i",
+  "created_at": "2026-06-04T17:47:38.613820+00:00"
+}

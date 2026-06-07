@@ -1,0 +1,12 @@
+{
+  "draft_id": "style-draft-9e45ee17dc07",
+  "name": "奶油珍珠婚礼款",
+  "price": "198",
+  "source_file_path": "C:\\Users\\llinx\\MeiTuanHackathon\\ai-service\\generated\\style-upload-drafts\\style-draft-9e45ee17dc07-source.png",
+  "design_file_path": "C:\\Users\\llinx\\MeiTuanHackathon\\ai-service\\generated\\style-upload-drafts\\style-draft-9e45ee17dc07-design.png",
+  "source_image_url": "/generated/style-upload-drafts/style-draft-9e45ee17dc07-source.png",
+  "design_image_url": "/generated/style-upload-drafts/style-draft-9e45ee17dc07-design.png",
+  "render_status": "fallback_isolated_design",
+  "render_channel": "segmentation-isolated-design",
+  "render_error": "HTTPStatusError: Server error '504 Gateway Time-out' for url 'https://api.highwayapi.ai/v3/gpt-image-2-edit'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+}

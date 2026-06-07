@@ -1,0 +1,68 @@
+[
+  {
+    "id": "celins-nail-futian",
+    "name": "Celins Nail瑟琳日式美甲美睫",
+    "distance": "1.8km",
+    "rating": 4.8,
+    "price": "\u00a5158+",
+    "address": "\u798f\u7530\u533a\u798f\u534e\u4e09\u8def88\u53f7\u8d22\u5bcc\u5927\u53a615C",
+    "image": "/modao-assets/modao-14.jpg",
+    "tags": ["\u4f1a\u5c55\u4e2d\u5fc3", "\u65e5\u7cfb", "\u9ad8\u7a7a\u73af\u5883"],
+    "availableStyles": ["library-20260514-001", "library-20260514-002", "library-20260514-003"]
+  },
+  {
+    "id": "orchid-zhiguo-gangxia",
+    "name": "\u5170\u82b1\u82b7\u56fd\u98ce\u00b7\u7f8e\u7532\u7f8e\u776b",
+    "distance": "2.1km",
+    "rating": 4.7,
+    "price": "\u00a5168+",
+    "address": "\u798f\u7530\u533a\u5c97\u53a6\u57ceE\u5ea71606\u5ba4",
+    "image": "/modao-assets/modao-19.jpg",
+    "tags": ["\u56fd\u98ce", "\u54ac\u6b8b\u7532\u4fee\u590d", "\u5c97\u53a6"],
+    "availableStyles": ["library-20260514-005", "library-20260514-012", "library-20260514-017"]
+  },
+  {
+    "id": "franli-jinzhonghuan",
+    "name": "\u6cd5\u5170\u9ece\u7f8e\u7532\u7f8e\u776b",
+    "distance": "2.4km",
+    "rating": 4.9,
+    "price": "\u00a5128+",
+    "address": "\u798f\u7530\u533a\u91d1\u7530\u8def3037\u53f7\u91d1\u4e2d\u73af\u5546\u52a1\u5927\u53a6A\u5ea71131\u5ba4",
+    "image": "/modao-assets/modao-17.jpg",
+    "tags": ["\u77ed\u7532\u53cb\u597d", "\u6765\u56fe\u8fd8\u539f", "\u4f1a\u5c55\u4e2d\u5fc3"],
+    "availableStyles": ["library-20260514-004", "library-20260514-010", "library-20260514-021"]
+  },
+  {
+    "id": "yehe-chegongmiao",
+    "name": "\u91ce\u79be\u7f8e\u776b\u7f8e\u7532\u827a\u672f\u7814\u7a76\u9662",
+    "distance": "3.0km",
+    "rating": 4.8,
+    "price": "\u00a5138+",
+    "address": "\u798f\u7530\u533a\u6df1\u5357\u5927\u90536007\u53f7\u521b\u5efa\u5927\u53a6A\u5ea71508\u5ba4",
+    "image": "/modao-assets/modao-22.jpg",
+    "tags": ["\u8f66\u516c\u5e99", "\u8f7b\u5962", "\u5efa\u6784\u5851\u5f62"],
+    "availableStyles": ["library-20260514-006", "library-20260514-014", "library-20260514-024"]
+  },
+  {
+    "id": "huaqi-nail-mixc",
+    "name": "\u82b1\u5c90\u7f8e\u7532HUAQI Nail",
+    "distance": "5.8km",
+    "rating": 4.8,
+    "price": "\u00a5167+",
+    "address": "\u5357\u5c71\u533a\u5927\u51b2\u65b0\u57ce\u82b1\u56ed2\u680b1D\u5ea72512\u5ba4",
+    "image": "/modao-assets/modao-20.jpg",
+    "tags": ["\u4e07\u8c61\u5929\u5730", "\u65e5\u5f0f\u6d41\u7a0b", "\u5f00\u5e9714\u5e74"],
+    "availableStyles": ["library-20260514-008", "library-20260514-018", "library-20260514-030"]
+  },
+  {
+    "id": "pink-panda-mixc-world",
+    "name": "Pink Panda\u7f8e\u7532\u7f8e\u776b",
+    "distance": "6.2km",
+    "rating": 4.7,
+    "price": "\u00a5300/\u4eba",
+    "address": "\u5357\u5c71\u533a\u6df1\u5357\u5927\u9053\u5927\u51b2\u4e07\u8c61\u5929\u5730\u534e\u6da6\u7f6e\u5730\u5927\u53a6E\u5ea727\u697cB",
+    "image": "/modao-assets/modao-23.jpg",
+    "tags": ["\u4e07\u8c61\u5929\u5730", "\u5ba2\u5236\u5316", "\u8bbe\u8ba1\u611f\u7a7a\u95f4"],
+    "availableStyles": ["library-20260514-011", "library-20260514-023", "library-20260514-032"]
+  }
+]
