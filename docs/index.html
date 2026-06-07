@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="NailAI 甲惠通是面向美团本地生活美甲服务的 AI 试戴、智能推荐与商家供给平台，连接上传手图、AI 试戴、门店推荐、DIY 悬赏和商家上新。"
+    />
+    <title>NailAI 甲惠通 | AI 美甲本地生活闭环</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=ZCOOL+XiaoWei&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/site.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="NailAI 项目导航">
+      <a class="brand" href="#top" aria-label="返回 NailAI 首页">
+        <span class="brand-mark">N</span>
+        <span class="brand-copy">
+          <strong>NailAI</strong>
+          <small>甲惠通</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="页面章节">
+        <a href="#loop">闭环</a>
+        <a href="#value">价值</a>
+        <a href="#features">功能</a>
+        <a href="#architecture">技术</a>
+        <a href="#metrics">指标</a>
+        <a href="#demo">Demo</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="grain" aria-hidden="true"></div>
+        <div class="hero-stage" aria-hidden="true">
+          <div class="phone-lab">
+            <div class="phone-top"></div>
+            <img class="phone-screenshot" src="./assets/evidence/ai-tryon-upload.png" alt="NailAI AI 换美甲上传手图页面截图" />
+            <div class="screen-card screen-card-float">
+              <span>六维标签</span>
+              <b>颜色 / 工艺 / 甲型 / 场景</b>
+            </div>
+          </div>
+          <div class="route-ticket">
+            <span>本地生活链路</span>
+            <strong>种草 → 试戴 → 找店 → 履约</strong>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Meituan Hackathon MVP</p>
+          <h1 id="hero-title">NailAI <span>甲惠通</span></h1>
+          <p class="hero-copy">
+            用 AI 把美甲消费从“看图种草”升级为“上传手图、AI 试戴、智能选款、找到可服务门店、商家快速上新”的完整闭环。
+          </p>
+          <div class="hero-actions" aria-label="项目快速入口">
+            <a
+              class="primary-action"
+              href="https://www.bilibili.com/video/BV1yk7C65Ehp/?share_source=copy_web&vd_source=d9a9af5a8ba98259833270a55416d67f"
+              target="_blank"
+              rel="noreferrer"
+            >
+              看 Demo 视频
+            </a>
+            <a class="secondary-action" href="http://47.121.192.4" target="_blank" rel="noreferrer">访问在线服务</a>
+            <a class="ghost-action" href="https://github.com/linixiyi/Nailai" target="_blank" rel="noreferrer">GitHub 源码</a>
+          </div>
+          <dl class="hero-stats" aria-label="项目关键事实">
+            <div>
+              <dt>1 条</dt>
+              <dd>用户到商家的闭环路径</dd>
+            </div>
+            <div>
+              <dt>5 类</dt>
+              <dd>试戴后的转化入口</dd>
+            </div>
+            <div>
+              <dt>6 维</dt>
+              <dd>款式结构化标签体系</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="loop" class="section loop-section" aria-labelledby="loop-title">
+        <div class="section-heading">
+          <p class="eyebrow">Closed Loop</p>
+          <h2 id="loop-title">P0 演示只证明一件事：美甲可以被试戴、被理解、被匹配</h2>
+          <p>
+            NailAI 不是单点生图玩具，而是把消费者决策、商家供给和平台履约串成可展示、可推荐、可交易的数据链路。
+          </p>
+        </div>
+        <div class="loop-ribbon" aria-label="NailAI 产品闭环">
+          <article>
+            <span>01</span>
+            <h3>上传清晰手照</h3>
+            <p>用户提供自己的手部照片，系统保留手型、肤色和拍摄环境作为试戴基础。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>选择心仪款式</h3>
+            <p>款式图和六维标签一起进入请求，降低模型只靠文字猜测的跑偏风险。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>AI 生成试戴</h3>
+            <p>FastAPI 图像管线接收 multipart 请求，返回真实 result_image_url。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>展示上手效果</h3>
+            <p>结果页帮助用户判断“这款在我手上好不好看”，减少到店前的不确定。</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>继续找店与定制</h3>
+            <p>用户进入款式详情、电子闺蜜推荐、门店推荐或 DIY 悬赏。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="value" class="section value-section" aria-labelledby="value-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Why It Matters</p>
+            <h2 id="value-title">三方价值同时成立，平台闭环才成立</h2>
+          </div>
+          <p>
+            美甲是强视觉、强个性化、强本地履约的服务。NailAI 的价值来自把内容、用户偏好、商家能力和真实服务连接起来。
+          </p>
+        </div>
+        <div class="value-grid">
+          <article>
+            <span class="value-icon">C</span>
+            <h3>消费者</h3>
+            <p>看到真实上手效果，明确价格、门店能力和等待时间，在到店前完成更确定的消费决策。</p>
+          </article>
+          <article>
+            <span class="value-icon">S</span>
+            <h3>商家</h3>
+            <p>把真实作品快速转成标准化上架图，补齐标签后进入供给池，降低上新、修图和接单成本。</p>
+          </article>
+          <article>
+            <span class="value-icon">P</span>
+            <h3>平台</h3>
+            <p>沉淀可搜索、可推荐、可履约的美甲服务数据，提升从内容浏览到预约交易的转化。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section feature-section" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">Product Surface</p>
+          <h2 id="features-title">从用户端到商家端，形成同一套供给和推荐系统</h2>
+        </div>
+        <div class="feature-board">
+          <article class="feature-large">
+            <div class="feature-label">01 / Try-On</div>
+            <h3>AI 美甲试戴</h3>
+            <p>
+              用户上传手图并选择款式，系统把手图、款式图、style_id 和 style_payload 传给 FastAPI 生图服务，生成可用于消费决策的试戴结果。
+            </p>
+          </article>
+          <article>
+            <div class="feature-label">02 / Chat</div>
+            <h3>电子闺蜜推荐</h3>
+            <p>用自然语言表达“通勤短甲”“婚礼伴娘”“显白显长”等需求，系统基于款式库和标签返回推荐理由。</p>
+          </article>
+          <article>
+            <div class="feature-label">03 / DIY</div>
+            <h3>DIY 悬赏</h3>
+            <p>用户上传灵感图，填写预算、场景和风格，平台把来图复刻需求转成可报价的结构化需求单。</p>
+          </article>
+          <article>
+            <div class="feature-label">04 / Store</div>
+            <h3>商家 AI 上新</h3>
+            <p>商家上传真实作品图，AI 生成标准化设计预览，补齐六维标签后上架到首页款式库。</p>
+          </article>
+          <article>
+            <div class="feature-label">05 / Local</div>
+            <h3>附近可做门店</h3>
+            <p>试戴结果继续连接附近门店、报价、排期、设施和商家可做能力，让内容种草走向本地履约。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="architecture" class="section architecture-section" aria-labelledby="architecture-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Architecture</p>
+            <h2 id="architecture-title">Next.js 同源代理 + FastAPI 图像管线</h2>
+          </div>
+          <p>
+            浏览器默认走 Next.js 同源代理 <code>/api/v1</code>，服务端通过 <code>AI_SERVICE_URL</code> 转发到 FastAPI，避免手机访问时 <code>localhost</code> 指向本机的问题。
+          </p>
+        </div>
+        <div class="arch-flow" aria-label="技术架构链路">
+          <div>
+            <strong>Mobile Web</strong>
+            <span>Next.js App Router</span>
+          </div>
+          <i></i>
+          <div>
+            <strong>/api/v1 Proxy</strong>
+            <span>Same-Origin Route Handler</span>
+          </div>
+          <i></i>
+          <div>
+            <strong>FastAPI Service</strong>
+            <span>Styles · Chat · Shops · Try-On</span>
+          </div>
+          <i></i>
+          <div>
+            <strong>Image Pipeline</strong>
+            <span>Provider Adapter · Result URL</span>
+          </div>
+        </div>
+        <div class="tech-columns">
+          <article>
+            <h3>试戴请求</h3>
+            <p><code>image</code>、<code>style_image</code>、<code>style_id</code>、<code>style_payload</code> 同时进入 multipart 请求，保证模型拿到视觉参考和语义约束。</p>
+          </article>
+          <article>
+            <h3>商家上新</h3>
+            <p><code>/store/styles/preview</code> 负责生成设计预览，<code>/store/styles/publish</code> 负责发布结构化款式，失败态不伪装成最终图。</p>
+          </article>
+          <article>
+            <h3>数据策略</h3>
+            <p>MVP 使用本地 seed、静态资源和 FastAPI demo 数据，Supabase schema 为后续真实持久化预留。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section ai-section" aria-labelledby="ai-title">
+        <div class="section-heading">
+          <p class="eyebrow">AI Advantages</p>
+          <h2 id="ai-title">图像编辑优先，标签约束辅助，失败状态透明</h2>
+        </div>
+        <div class="ai-layout">
+          <div class="tag-cloud" aria-label="六维款式标签">
+            <span>颜色</span>
+            <span>工艺</span>
+            <span>甲型</span>
+            <span>风格</span>
+            <span>场景</span>
+            <span>长短</span>
+            <strong>六维标签体系</strong>
+          </div>
+          <div class="ai-copy">
+            <article>
+              <h3>不是凭空画图</h3>
+              <p>核心是把用户手图、款式参考图和结构化款式信息一起输入，做受约束的图像编辑，更容易保留真实手型、姿态和肤色。</p>
+            </article>
+            <article>
+              <h3>款式图 + 标签共同约束</h3>
+              <p>图片提供视觉参考，标签提供语义边界，让推荐、搜索、试戴和商家上架共用同一套可解释数据。</p>
+            </article>
+            <article>
+              <h3>质量控制不遮掩</h3>
+              <p>商家预览失败就展示失败态，不把兜底图包装成真实 AI 结果，方便 demo 和真实产品排查问题。</p>
+            </article>
+            <article>
+              <h3>Provider 可替换</h3>
+              <p>图像生成能力封装在 provider adapter 中，后续可以按速度、画质、成本和可用性切换模型。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section scene-section" aria-labelledby="scene-title">
+        <div class="section-heading">
+          <p class="eyebrow">Meituan Fit</p>
+          <h2 id="scene-title">适合嵌入美团本地生活交易链路</h2>
+          <p>
+            NailAI 可以出现在美甲频道、点评款式内容页、门店详情页、商家后台和 DIY 报价系统中，把视觉内容变成可履约服务。
+          </p>
+        </div>
+        <div class="scene-grid">
+          <article>
+            <b>美甲频道</b>
+            <span>AI 试戴入口</span>
+          </article>
+          <article>
+            <b>内容页</b>
+            <span>试试我上手效果</span>
+          </article>
+          <article>
+            <b>门店页</b>
+            <span>本店可做相似款</span>
+          </article>
+          <article>
+            <b>商家后台</b>
+            <span>AI 上新与标签管理</span>
+          </article>
+          <article>
+            <b>DIY 需求</b>
+            <span>商家报价与接单</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="metrics" class="section metrics-section" aria-labelledby="metrics-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Business & Metrics</p>
+            <h2 id="metrics-title">短期看转化，中期看商家工具，长期看平台能力</h2>
+          </div>
+          <p>
+            这个 MVP 的商业想象不是卖一张图，而是建立美甲行业的款式知识库、视觉搜索、个性化推荐和门店能力匹配。
+          </p>
+        </div>
+        <div class="metrics-grid">
+          <article>
+            <span>用户侧</span>
+            <strong>试戴启动率 / 成功率</strong>
+            <p>关注用户是否愿意上传手图、是否从试戴结果继续进入详情或门店。</p>
+          </article>
+          <article>
+            <span>商家侧</span>
+            <strong>AI 上新成功率</strong>
+            <p>衡量单款上架耗时、标签完整率、新款式曝光和商家接单响应。</p>
+          </article>
+          <article>
+            <span>平台侧</span>
+            <strong>推荐与交易转化</strong>
+            <p>关注搜索命中、DIY 悬赏成交、门店服务能力覆盖和预约咨询转化。</p>
+          </article>
+        </div>
+        <div class="timeline" aria-label="推广计划">
+          <div>
+            <span>阶段 1</span>
+            <strong>黑客松展示</strong>
+            <p>证明 demo 闭环可用，收集评委和真实用户反馈。</p>
+          </div>
+          <div>
+            <span>阶段 2</span>
+            <strong>门店试点</strong>
+            <p>为 5 到 10 家门店批量生成标准款式图，验证上新效率。</p>
+          </div>
+          <div>
+            <span>阶段 3</span>
+            <strong>用户传播</strong>
+            <p>用 AI 试戴结果保存和分享，推动从好玩到真的想做。</p>
+          </div>
+          <div>
+            <span>阶段 4</span>
+            <strong>平台化扩展</strong>
+            <p>接入真实门店库存、评价、报价和 DIY 悬赏成交机制。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section evidence-section" aria-labelledby="evidence-title">
+        <div class="section-heading">
+          <p class="eyebrow">Source Notes</p>
+          <h2 id="evidence-title">资料截图位：可展示试戴、入口和商家端流程</h2>
+          <p></p>
+        </div>
+        <div class="evidence-grid">
+          <figure class="evidence-wide">
+            <img
+              src="./assets/evidence/pipeline-trace.png"
+              alt="NailAI AI 换甲处理链路 Pipeline Trace 截图"
+              loading="lazy"
+            />
+            <figcaption>试戴算法 Pipeline Trace</figcaption>
+          </figure>
+          <figure class="evidence-phone evidence-phone-large">
+            <img
+              src="./assets/evidence/merchant-entry.png"
+              alt="NailAI 商家端入口菜单截图"
+              loading="lazy"
+            />
+            <figcaption>商家端入口资料</figcaption>
+          </figure>
+          <figure class="evidence-phone">
+            <img
+              src="./assets/evidence/live-home.png"
+              alt="NailAI 项目线上运行首页截图"
+              loading="lazy"
+            />
+            <figcaption>项目运行首页截图</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="demo" class="section demo-section" aria-labelledby="demo-title">
+        <div class="demo-panel">
+          <div>
+            <p class="eyebrow">Demo Script</p>
+            <h2 id="demo-title">展示路径：先用户侧，再商家侧，最后回到平台闭环</h2>
+          </div>
+          <ol class="demo-list">
+            <li>打开首页，展示美甲款式库和 AI 试戴入口。</li>
+            <li>进入 AI 试戴页，上传手部照片并选择款式。</li>
+            <li>展示试戴结果，说明用户现在能判断适不适合自己。</li>
+            <li>进入款式详情、门店推荐或 Chat 推荐。</li>
+            <li>展示 DIY 悬赏如何承接来图复刻需求。</li>
+            <li>切到店主端，上传真实作品图，AI 生成标准化设计预览。</li>
+            <li>补齐六维标签并上架，让新款式回到平台供给池。</li>
+          </ol>
+          <div class="run-grid">
+            <div>
+              <h3>Frontend</h3>
+              <pre><code>cd web
+npm run dev
+# http://localhost:3003</code></pre>
+            </div>
+            <div>
+              <h3>Backend</h3>
+              <pre><code>cd ai-service
+./.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8008
+# GET /health</code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>NailAI 甲惠通 · AI 美甲本地生活 Hackathon MVP</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+  </body>
+</html>
